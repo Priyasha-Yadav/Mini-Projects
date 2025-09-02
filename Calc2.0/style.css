@@ -1,0 +1,100 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+
+    height: 100vh;
+    width: 39vw;
+    border: 2px solid black;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 10px;
+
+}
+
+#screen {
+    font-size: 6rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 30px 0 0;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6%;
+    font-size: 2rem;
+
+}
+
+.num {
+    height: 12vh;
+    width: 7vw;
+    border-radius: 100%;
+    background-color: rgb(58, 106, 149);
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+
+
+}
+
+.zero {
+  border-radius: 80px;
+    width: 14vw;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 0 5%;
+}
+.first{
+    background-color: rgb(172, 171, 171);
+    color: black;
+
+}
+.operator{
+    background-color: orange;
+}
+
+.num:hover{
+    height: 12vh;
+    width: 7vw;
+    border-radius: 100%;
+    background-color: rgb(71, 135, 190);
+    margin-bottom: 4%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(186, 186, 186);
+
+
+}
+
+.operator:hover{
+    background-color: rgb(255, 189, 67);
+}
+
+.num:active{
+    height: 12vh;
+    width: 7vw;
+    border-radius: 100%;
+    margin-bottom: 4%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(9, 10, 13);
+}
+.zero:hover {
+    border-radius: 80px;
+      width: 14vw;
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 0 0 5%;
+  }
